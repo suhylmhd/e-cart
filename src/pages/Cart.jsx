@@ -49,7 +49,7 @@ function Cart() {
 
   //function to checkout the prodects
   const checkout = () =>{
-    toast.success('Thank You ,  Your Order  Placed Successfully')
+    alert('Thank You ,  Your Order  Placed Successfully')
     dispatch(emptyCart())
     navigate('/')
   }
